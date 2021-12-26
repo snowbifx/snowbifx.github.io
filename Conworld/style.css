@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body, html {
+    margin: 0;
+    height: calc(100% - 2.5px); /* I hate CSS so much */
+    width : 100%;
+    font-family: 'Noto Serif', serif;
+}
+
+#nav {
+    margin-right: 2px;
+    border-right: 2px solid black;
+    height      : 100%;
+    width       : 20%;
+}
+
+#content {
+    border-left : 2px solid black;
+    flex-grow   : 1;
+    height      : 100%;
+    width       : 80%;
+}
+
+#wrapper {
+    display: flex;
+    height : 100%;
+    width  : 100%;
+}
+
+.entry {
+    padding-left: 20px;
+    margin-left : 5px;
+    border-left : 2px solid black;
+    font-size   : 20px;
+}
+
+iframe {
+    border: 0;
+    height: 100%;
+    margin: 0;
+    width : 100%;
+}
+
+a, a:visited {
+    color: #75C8CC;
+}
