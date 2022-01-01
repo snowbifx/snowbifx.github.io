@@ -1,0 +1,101 @@
+body, html {
+    padding: 0;
+    margin : 0;
+    height : 100%;
+    width  : 100%;
+}
+p {
+    margin: 0;
+}
+hr {
+    border: 1px solid #111;
+}
+input[type=text] {
+    font-family: monospace;
+    font-size  : 14px;
+    width      : 96%;
+}
+ul {
+    padding-left: 10px;
+}
+
+#input {
+    border: 1px solid black;
+    height: 80%;
+    width : calc(100% - 6px);
+}
+
+.sidebar {
+    position: absolute;
+    padding : 6px;
+    height  : calc(98% + 6px);
+    width   : 15%;
+}
+.sidebar-container {
+    position: relative;
+    padding : 0;
+    margin  : 0;
+    height  : 100%;
+    width   : 100%;
+}
+.input {
+    margin-left: calc(16% - 1px);
+    height     : 4%;
+}
+.chat {
+    margin-left: 16%;
+    overflow   : scroll;
+    height     : 96%;
+}
+
+.message {
+    margin-bottom: 15px;
+}
+.chat-me::before {
+    font-weight: bold;
+    content    : "You: ";
+}
+.chat-peer::before {
+    font-weight: bold;
+    content    : "Peer: ";
+}
+
+.title {
+    padding-top: 5px;
+    font-size  : 32px;
+}
+.header {
+    margin-bottom: 5px;
+    font-size    : 25px;
+}
+.text {
+    font-size: 20px;
+}
+
+.self-id {
+    position: absolute;
+    padding : 1%;
+    bottom  : 0;
+    width   : 98%;
+}
+
+.make, .connections {
+    padding: 1%;
+    width  : 98%;
+}
+
+.connection {
+    list-style-type: none;
+    text-decoration: underline;
+    text-overflow  : ellipsis;
+    text-indent    : 0;
+    font-family    : monospace;
+    font-size      : 25px;
+    overflow       : hidden;
+    cursor         : pointer;
+    width          : 70%;
+}
+
+.clickable {
+    text-decoration: underline;
+}
