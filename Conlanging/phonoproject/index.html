@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Phonology Assistant</title>
+    </head>
+    <body>
+        <table id="select_sounds">
+        </table>
+
+        <script>
+            chars = {
+                "Nasal"             : ["m̥ _ _ _ n̥ ɳ̊ ɲ̊ ŋ̊ _ # #", 
+                                      "m ɱ n̼ n ɳ ɲ ŋ ɴ # #"],
+                "Plosive"           : ["p p̪ t̼ _ t ʈ c k q ʡ ʔ",
+                                      "b b̪ d̼ d ɖ ɟ g ɢ # #"],
+                "Sibilant Affricate": ["# # # _ ts tʃ ʈʂ tɕ # # # #",
+                                       "# # # _ dz dʒ ɖʐ dʑ # # # #"],
+                "Non-sib Affricate" : ["pɸ p̪f _ t̪θ tɹ̝̊ t̠ɹ̠̊˔ _ cç kx qχ _ ʔh", 
+                                      "bβ b̪v _ d̪ð dɹ̝ _ ɟʝ ɡɣ ɢʁ ʡʢ _"],
+            }
+
+            function createObjRow(field, voiced, voiceless) {
+
+            }
+
+
+
+            phonos = {
+                "everything": {
+                    "Nasal"                 : 0,
+                    "Plosive"               : createObjRow(),
+                    "Non-sibilant Affricate": createObjRow()
+                }
+            }
+
+            function create_table(phono) {
+                outs = "";
+                
+            }
+        </script>
+    </body>
+</html>
